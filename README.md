@@ -1,12 +1,13 @@
-- 👋 Hi, I’m @KirraNome
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning C++
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me idk🙁
-- 😄 Pronouns: ...
-- ⚡ Fun fact: im not gay
+⚜️ Anti-miner for ubuntu.
+This is an anti-miner written in c, it terminates processes that load the processor under 100%
 
-<!---
-KirraNome/KirraNome is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+fast install:
+• apt update
+• apt install gcc
+• gcc -o anti_mining anti_mining.c
+to create log file:
+• sudo touch /var/log/anti_mining.log
+• sudo chmod 666 /var/log/anti_mining.log
+to start:
+screen(enter)
+sudo ./anti_mining
